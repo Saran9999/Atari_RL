@@ -6,6 +6,9 @@ This repository contains implementation of 3 different agents DQN, Double-DQN, D
 2) The code installs all the required libraries and APIs. You do not need to install any external libraries. Supported python and pip suffices.
 3) Consider checking the references for better understanding.
 
+# How to Run:
+Open the notebook in google collaboratory and select restart and run all. Training would take about 60 min.
+
 # REFS:
   https://markelsanz14.medium.com/introduction-to-reinforcement-learning-part-3-q-learning-with-neural-networks-algorithm-dqn-1e22ee928ecd
   https://markelsanz14.medium.com/introduction-to-reinforcement-learning-part-4-double-dqn-and-dueling-dqn-b349c9a61ea1
