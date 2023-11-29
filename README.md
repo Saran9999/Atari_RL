@@ -13,12 +13,17 @@ Open the notebook in google collaboratory and select restart and run all. Traini
 Each notebook file contains the following 3 classes:
 
 ## DQN
+```rst
 This contains implementation of the neural network that the agent uses to train upon the game and to select action for each query.
+```
 
 ## ReplayBuffer
+```rst
 Contains implementation of the buffer that is used to store the query and response as a tuple from the neural network.
+```
 
 ## AgentDQN
+```rst
 This is our agent that makes the decision of actions for each timestep.
 
 Few points to note on how the agent works:
@@ -27,6 +32,7 @@ Few points to note on how the agent works:
 3) Assumes that the discounted reward factor GAMMA = 0.99 and that each sequence of states comes to termination in finite no.of steps in future.
 4) Uses RMSprop optimizer for weights in DQN neural network
 5) Randomly selects actions for the initial 10,000 timesteps to fill up the ReplayBuffer to atleast a baseline.
+```
 
 # REFS:
   https://markelsanz14.medium.com/introduction-to-reinforcement-learning-part-3-q-learning-with-neural-networks-algorithm-dqn-1e22ee928ecd
