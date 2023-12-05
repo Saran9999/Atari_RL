@@ -140,7 +140,10 @@ self.memory = ReplayBuffer(100000, self.batch_size)
 
 # REFS:
   https://markelsanz14.medium.com/introduction-to-reinforcement-learning-part-3-q-learning-with-neural-networks-algorithm-dqn-1e22ee928ecd
+  
   https://markelsanz14.medium.com/introduction-to-reinforcement-learning-part-4-double-dqn-and-dueling-dqn-b349c9a61ea1
+  
   https://colab.research.google.com/drive/16RjttswTuAjgqVV2jA-ioY2xVEQqIcQE#sandboxMode=true&scrollTo=OvvBAoQVJsuU
+  
   https://arxiv.org/pdf/1312.5602v1.pdf
   
